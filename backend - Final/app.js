@@ -67,12 +67,7 @@ setTimeout(() => {
 
 // Middleware
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://localhost:5173',
-    'https://mobile-recharge-frontend-final.onrender.com'
-  ],
-  credentials: true
+  origin: "*"
 }));
 
 
